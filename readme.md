@@ -1,6 +1,6 @@
 ## 证券交易系统模版
 
->keyword: nodejs koa less 
+>keyword: nodejs koa2 less 
 
 **重点:运行环境**
 
@@ -20,6 +20,8 @@ brew install node
 
 npm自动跟随升级。
 
+windows升级方式自行Google,这里略。
+
 *注意:如果后端不选择用koa，自行选用express的话，node可以采用低版本(比如6.3)*
 
 ### 如何运行
@@ -38,6 +40,7 @@ npm run start
 public为静态文件目录，所有静态资源都放在这里。    
 
 * 其中public下example.html为我目前提供的模版。
+* 其中stylesheet文件夹下有我用的less文件,less文件根据文件名可以推测用途。
 
 routes为后端提供的接口书写目录。   
 
